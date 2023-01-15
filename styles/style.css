@@ -56,13 +56,6 @@ body{
     width: 100%;
     margin: 45px 240px;
 }
-@media screen and (max-width:576px) {
-    .nav-items{
-        margin-top: 63px;
-        display: flex;
-        flex-direction: row;
-    }
-}
 
 /* feature styles  */
 .feature-container{
@@ -105,9 +98,6 @@ body{
   justify-content: center;
   margin-top: 140px;
 }
-.experience-blogs{
-   
-}
 .experience-tittle{
    color: #131313;
    font-size: 45px;
@@ -118,12 +108,6 @@ body{
     color: #131313;
     font-size: 20px;
 }
-.experience-item-blog{
-    
-}
-.experience-items{
-   
-}
 .experience-item-tittle{
     color: #131313;
     font-size: 20px;
@@ -132,6 +116,13 @@ body{
 .experience-item-description{
    color: #727272;
    font-size: 16px;
+}
+.experience-button{
+    background-color: #FF900E;
+    padding: 45px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 /* facts styles  */
 .facts-container{
